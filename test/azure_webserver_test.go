@@ -18,7 +18,7 @@ func TestAzureLinuxVMCreation(t *testing.T) {
 	TerraformDir: "../",
 	// Override the default terraform variables
 	Vars: map[string]interface{}{
-	"labelPrefix": "kare0041",
+	"labelPrefix": "akin0098",
 	},
 	}
 	defer terraform.Destroy(t, terraformOptions)
